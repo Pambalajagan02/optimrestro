@@ -1,0 +1,40 @@
+.nav-container{
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+.restro-head{
+    text-decoration: none;
+    font-family: roboto;
+
+}
+.cart-card {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  .cartbuton {
+    border: none;
+    background-color: transparent;
+  }
+  .cart-count {
+    background-color: rgb(248, 110, 110);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: 520;
+    position: absolute;
+    margin-left: 18px;
+    margin-bottom: 18px;
+  }
+  .cart-icon {
+    font-size: 30px;
+    color: rgb(83, 80, 80);
+  }

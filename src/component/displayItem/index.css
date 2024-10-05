@@ -1,0 +1,47 @@
+.list-container{
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+    transition: transform 0.2s; 
+}
+.image-style{
+width: 100%;
+}
+.quantity-style{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+
+}
+.quantity-size{
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.button-cart{
+    background-color: #5dc689;
+    font-family: 'Roboto';
+    outline: none;
+    border-style: none;
+    height: 40px;
+    width: 160px;
+    font-size: 14px;
+    font-weight: 530;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.name-heading{
+    font-family: roboto;
+    font-size: 20px;
+}

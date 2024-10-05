@@ -1,0 +1,13 @@
+.main-container{
+    width:100%;
+    padding: 10px;
+    background-color: #bee4d4;
+}
+.ul-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 20px;
+    padding-left: 0px;
+    list-style-type: none;
+   
+}
